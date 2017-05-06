@@ -1,0 +1,72 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  font: 50px Courier;
+  min-height: 300px
+  height: auto;
+  display: block;
+  padding: 10px;
+  background-color: white;
+
+}
+
+p {
+  font-size: 30px;
+  position: relative;
+  margin: 0px 50px 0px 50px;
+}
+
+.form_label {
+  font-size: 30px;
+  position: relative;
+  text-align: center
+  margin: auto;
+  width: auto;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  clear: both;
+  list-style-type: none;
+  display: block;
+  background: #249ADE;
+  height: auto;
+  padding: 10px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px
+}
+
+ul {
+  color: white;
+  font: 16px Courier;
+}
+
+form {
+  margin: 20px 50px 20px 50px;
+}
+
+input {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+button {
+  font-size: 30px;
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 8px;
+}

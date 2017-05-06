@@ -1,0 +1,52 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  font: 50px Courier;
+  min-height: 300px
+  height: auto;
+  display: block;
+  padding: 10px;
+  background-color: white;
+
+}
+
+.caption {
+  float: left;
+  display: inline-block;
+  position: relative;
+  left: 20px;
+}
+
+main {
+  font-size: 30px;
+  position: relative;
+  margin: 100px 20px 10px 700px;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  clear: both;
+  list-style-type: none;
+  display: block;
+  background: #249ADE;
+  height: auto;
+  padding: 10px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px
+}
+
+ul {
+  color: white;
+  font: 16px Courier;
+}
