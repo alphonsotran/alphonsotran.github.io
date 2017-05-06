@@ -1,0 +1,201 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: url("paper.jpg")  no-repeat center center fixed;
+  -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+header {
+  text-align: center;
+  text-decoration: underline;
+  font: 50px Courier;
+  /*min-height: 300px;*/
+  height: auto;
+  display: block;
+  padding: 10px;
+  background-color: white;
+  border-bottom: 2px solid black;
+
+}
+
+* p {
+  font-size: 20px;
+}
+
+* a:visited {
+  color: purple;
+}
+
+li {
+  font-size: 20px;
+}
+
+h2 {
+  font: 40px Courier;
+  text-decoration: underline;
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
+  padding-top: 10px;
+}
+
+.pictures a {
+  font-size: : 50px;
+}
+
+.history {
+  min-height: 330px;
+  display: inline-block;
+  background-color: white;
+
+}
+
+.history_table {
+  float: left;
+  width: 49%;
+  position: relative;
+  margin-right: 30px;
+  line-height: 2em;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.history p {
+  float: right;
+  width: 49%;
+  margin-left: 10px;
+  position: relative;
+  margin-right: 10px;
+}
+
+.history_table th {
+  font-size: 1.5em;
+}
+
+.history_table td {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+div.tips {
+  clear: both;
+}
+
+div.navigation {
+  width: 100%;
+  list-style-type: none;
+  display: block;
+  background: #249ADE;
+  height: auto;
+  padding: 10px;
+  left: 0px;
+  right: 0px;
+  bottom: -100px;
+}
+
+.navigation a {
+  color: white;
+  font: 15px Courier;
+}
+
+.acting {
+  border: 2px solid black;
+  min-height: 200px;
+  height: auto;
+  text-align: center;
+  border-left-style: none;
+  border-right-style: none;
+  background-color: white;
+}
+
+#letter_A {
+  float: left;
+  width: 0.7em;
+  font: 400% courier;
+  line-height: 80%;
+}
+
+.tips {
+  text-align: center;
+  border: 2px solid black;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  height: 500px;
+  background-color: white;
+}
+
+.tip_list {
+  text-align: center;
+  list-style-position: inside;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+header.sub_h1 {
+  font: 40px Courier;
+  text-decoration-style: underline;
+}
+
+@media screen and (max-width: 1500px) {
+  .history_table {
+  width: 98%;
+  position: relative;
+  margin-right: 30px;
+  line-height: 1.5em;
+  margin: 10px 10px 10px 10px;
+}
+
+.history p {
+  width: 98%;
+  margin: 5px 5px 5px 10px;
+  position: relative;
+  text-align: left;
+}
+.history {
+  min-height: 400px;
+}
+
+}
+
+@media screen and (max-width: 650px) {
+  header {
+    text-align: center;
+    text-decoration: underline;
+    font: 30px Courier;
+    /*min-height: 300px;*/
+    height: auto;
+    display: block;
+    padding: 10px;
+    background-color: white;
+    border-bottom: 2px solid black;
+  }
+  h2 {
+    font: 25px Courier;
+    text-decoration: underline;
+    text-align: center;
+}
+  .history_table th {
+    font-size: 1.1em;
+}
+
+  .history_table td {
+    font-size: 1.1em;
+    text-align: center;
+}
+
+}
