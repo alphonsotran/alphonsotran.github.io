@@ -27,6 +27,7 @@ header {
 
 * p {
   font-size: 20px;
+   padding: 10px;
 }
 
 * a:visited {
@@ -52,9 +53,7 @@ img {
   padding-top: 10px;
 }
 
-.pictures a {
-  font-size: : 50px;
-}
+
 
 .history {
   min-height: 330px;
@@ -79,6 +78,7 @@ img {
   margin-left: 10px;
   position: relative;
   margin-right: 10px;
+
 }
 
 .history_table th {
@@ -144,12 +144,9 @@ div.navigation {
   text-align: center;
   display: block;
   width: 100%;
+  padding: 10px;
 }
 
-header.sub_h1 {
-  font: 40px Courier;
-  text-decoration-style: underline;
-}
 
 @media screen and (max-width: 1500px) {
   .history_table {
